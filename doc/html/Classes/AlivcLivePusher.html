@@ -1,0 +1,4961 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>AlivcLivePusher Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AlivcLivePusher </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Aliyun</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/hideDebugView">+ hideDebugView</option>
+		
+		<option value="//api/name/showDebugView">+ showDebugView</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addDynamicWaterMarkImageDataWithPath:x:y:w:h:">- addDynamicWaterMarkImageDataWithPath:x:y:w:h:</option>
+		
+		<option value="//api/name/addMixAudio:format:audioSample:">- addMixAudio:format:audioSample:</option>
+		
+		<option value="//api/name/addMixVideo:width:height:rotation:displayX:displayY:displayW:displayH:adjustHeight:">- addMixVideo:width:height:rotation:displayX:displayY:displayW:displayH:adjustHeight:</option>
+		
+		<option value="//api/name/changeMixVideoPosition:displayX:displayY:displayW:displayH:">- changeMixVideoPosition:displayX:displayY:displayW:displayH:</option>
+		
+		<option value="//api/name/destory">- destory</option>
+		
+		<option value="//api/name/focusCameraAtAdjustedPoint:autoFocus:">- focusCameraAtAdjustedPoint:autoFocus:</option>
+		
+		<option value="//api/name/getCurrentExposure">- getCurrentExposure</option>
+		
+		<option value="//api/name/getCurrentZoom">- getCurrentZoom</option>
+		
+		<option value="//api/name/getLivePushStatusInfo">- getLivePushStatusInfo</option>
+		
+		<option value="//api/name/getLiveStatus">- getLiveStatus</option>
+		
+		<option value="//api/name/getMaxZoom">- getMaxZoom</option>
+		
+		<option value="//api/name/getPushURL">- getPushURL</option>
+		
+		<option value="//api/name/getSDKVersion">- getSDKVersion</option>
+		
+		<option value="//api/name/getSupportedMaxExposure">- getSupportedMaxExposure</option>
+		
+		<option value="//api/name/getSupportedMinExposure">- getSupportedMinExposure</option>
+		
+		<option value="//api/name/initWithConfig:">- initWithConfig:</option>
+		
+		<option value="//api/name/inputMixAudioData:data:size:pts:">- inputMixAudioData:data:size:pts:</option>
+		
+		<option value="//api/name/inputMixVideoData:data:width:height:stride:size:pts:rotation:">- inputMixVideoData:data:width:height:stride:size:pts:rotation:</option>
+		
+		<option value="//api/name/isPushing">- isPushing</option>
+		
+		<option value="//api/name/pause">- pause</option>
+		
+		<option value="//api/name/pauseBGM">- pauseBGM</option>
+		
+		<option value="//api/name/reconnectPushAsync">- reconnectPushAsync</option>
+		
+		<option value="//api/name/reconnectPushAsync:">- reconnectPushAsync:</option>
+		
+		<option value="//api/name/removeDynamicWaterMark:">- removeDynamicWaterMark:</option>
+		
+		<option value="//api/name/removeMixAudio:">- removeMixAudio:</option>
+		
+		<option value="//api/name/removeMixVideo:">- removeMixVideo:</option>
+		
+		<option value="//api/name/restartPush">- restartPush</option>
+		
+		<option value="//api/name/restartPushAsync">- restartPushAsync</option>
+		
+		<option value="//api/name/resume">- resume</option>
+		
+		<option value="//api/name/resumeAsync">- resumeAsync</option>
+		
+		<option value="//api/name/resumeBGM">- resumeBGM</option>
+		
+		<option value="//api/name/sendAudioSampleBuffer:withType:">- sendAudioSampleBuffer:withType:</option>
+		
+		<option value="//api/name/sendMessage:repeatCount:delayTime:KeyFrameOnly:">- sendMessage:repeatCount:delayTime:KeyFrameOnly:</option>
+		
+		<option value="//api/name/sendPCMData:size:sampleRate:channel:pts:">- sendPCMData:size:sampleRate:channel:pts:</option>
+		
+		<option value="//api/name/sendVideoData:width:height:size:pts:rotation:">- sendVideoData:width:height:size:pts:rotation:</option>
+		
+		<option value="//api/name/sendVideoSampleBuffer:">- sendVideoSampleBuffer:</option>
+		
+		<option value="//api/name/setAudioDenoise:">- setAudioDenoise:</option>
+		
+		<option value="//api/name/setAutoFocus:">- setAutoFocus:</option>
+		
+		<option value="//api/name/setBGMDelegate:">- setBGMDelegate:</option>
+		
+		<option value="//api/name/setBGMEarsBack:">- setBGMEarsBack:</option>
+		
+		<option value="//api/name/setBGMLoop:">- setBGMLoop:</option>
+		
+		<option value="//api/name/setBGMVolume:">- setBGMVolume:</option>
+		
+		<option value="//api/name/setBeautyBigEye:">- setBeautyBigEye:</option>
+		
+		<option value="//api/name/setBeautyBuffing:">- setBeautyBuffing:</option>
+		
+		<option value="//api/name/setBeautyCheekPink:">- setBeautyCheekPink:</option>
+		
+		<option value="//api/name/setBeautyOn:">- setBeautyOn:</option>
+		
+		<option value="//api/name/setBeautyRuddy:">- setBeautyRuddy:</option>
+		
+		<option value="//api/name/setBeautyShortenFace:">- setBeautyShortenFace:</option>
+		
+		<option value="//api/name/setBeautyThinFace:">- setBeautyThinFace:</option>
+		
+		<option value="//api/name/setBeautyWhite:">- setBeautyWhite:</option>
+		
+		<option value="//api/name/setCaptureVolume:">- setCaptureVolume:</option>
+		
+		<option value="//api/name/setCustomDetectorDelegate:">- setCustomDetectorDelegate:</option>
+		
+		<option value="//api/name/setCustomFilterDelegate:">- setCustomFilterDelegate:</option>
+		
+		<option value="//api/name/setErrorDelegate:">- setErrorDelegate:</option>
+		
+		<option value="//api/name/setExposure:">- setExposure:</option>
+		
+		<option value="//api/name/setFlash:">- setFlash:</option>
+		
+		<option value="//api/name/setInfoDelegate:">- setInfoDelegate:</option>
+		
+		<option value="//api/name/setLogLevel:">- setLogLevel:</option>
+		
+		<option value="//api/name/setMinVideoBitrate:">- setMinVideoBitrate:</option>
+		
+		<option value="//api/name/setMixVideoMirror:isMirror:">- setMixVideoMirror:isMirror:</option>
+		
+		<option value="//api/name/setMute:">- setMute:</option>
+		
+		<option value="//api/name/setNetworkDelegate:">- setNetworkDelegate:</option>
+		
+		<option value="//api/name/setPreviewMirror:">- setPreviewMirror:</option>
+		
+		<option value="//api/name/setPushMirror:">- setPushMirror:</option>
+		
+		<option value="//api/name/setQualityMode:">- setQualityMode:</option>
+		
+		<option value="//api/name/setResolution:">- setResolution:</option>
+		
+		<option value="//api/name/setSnapshotDelegate:">- setSnapshotDelegate:</option>
+		
+		<option value="//api/name/setTargetVideoBitrate:">- setTargetVideoBitrate:</option>
+		
+		<option value="//api/name/setZoom:">- setZoom:</option>
+		
+		<option value="//api/name/setpreviewDisplayMode:">- setpreviewDisplayMode:</option>
+		
+		<option value="//api/name/snapshot:interval:">- snapshot:interval:</option>
+		
+		<option value="//api/name/startBGMWithMusicPathAsync:">- startBGMWithMusicPathAsync:</option>
+		
+		<option value="//api/name/startPreview:">- startPreview:</option>
+		
+		<option value="//api/name/startPreviewAsync:">- startPreviewAsync:</option>
+		
+		<option value="//api/name/startPushWithURL:">- startPushWithURL:</option>
+		
+		<option value="//api/name/startPushWithURLAsync:">- startPushWithURLAsync:</option>
+		
+		<option value="//api/name/stopBGMAsync">- stopBGMAsync</option>
+		
+		<option value="//api/name/stopPreview">- stopPreview</option>
+		
+		<option value="//api/name/stopPush">- stopPush</option>
+		
+		<option value="//api/name/switchCamera">- switchCamera</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">AlivcLivePusher Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>AlivcLivePusher.h<br />AlivcLivePusher.mm</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>推流类</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/showDebugView" title="showDebugView"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showDebugView">+&nbsp;showDebugView</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>显示调试悬浮窗
+* 注意 ：Debug悬浮窗会占用一定的系统资源，只可用于APP研发的Debug阶段，Release版本请勿调用此接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)showDebugView</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>显示调试悬浮窗
+* 注意 ：Debug悬浮窗会占用一定的系统资源，只可用于APP研发的Debug阶段，Release版本请勿调用此接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/hideDebugView" title="hideDebugView"></a>
+	<h3 class="method-title"><code><a href="#//api/name/hideDebugView">+&nbsp;hideDebugView</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>隐藏调试悬浮窗</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)hideDebugView</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>隐藏调试悬浮窗</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithConfig:" title="initWithConfig:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithConfig:">&ndash;&nbsp;initWithConfig:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>init</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfig:(AlivcLivePushConfig *)<em>config</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>config</code></th>
+						<td><p>推流配置</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>self:success  nil:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>init</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setErrorDelegate:" title="setErrorDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setErrorDelegate:">&ndash;&nbsp;setErrorDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置推流错误监听回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setErrorDelegate:(id&lt;AlivcLivePusherErrorDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p><a href="../Protocols/AlivcLivePusherErrorDelegate.html">AlivcLivePusherErrorDelegate</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置推流错误监听回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setInfoDelegate:" title="setInfoDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setInfoDelegate:">&ndash;&nbsp;setInfoDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置推流状态监听回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setInfoDelegate:(id&lt;AlivcLivePusherInfoDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p><a href="../Protocols/AlivcLivePusherInfoDelegate.html">AlivcLivePusherInfoDelegate</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置推流状态监听回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setNetworkDelegate:" title="setNetworkDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setNetworkDelegate:">&ndash;&nbsp;setNetworkDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置推流网络监听回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setNetworkDelegate:(id&lt;AlivcLivePusherNetworkDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p><a href="../Protocols/AlivcLivePusherNetworkDelegate.html">AlivcLivePusherNetworkDelegate</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置推流网络监听回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCustomFilterDelegate:" title="setCustomFilterDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCustomFilterDelegate:">&ndash;&nbsp;setCustomFilterDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置用户自定义滤镜回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setCustomFilterDelegate:(id&lt;AlivcLivePusherCustomFilterDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p><a href="../Protocols/AlivcLivePusherCustomFilterDelegate.html">AlivcLivePusherCustomFilterDelegate</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置用户自定义滤镜回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCustomDetectorDelegate:" title="setCustomDetectorDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCustomDetectorDelegate:">&ndash;&nbsp;setCustomDetectorDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置用户自定义人脸识别回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setCustomDetectorDelegate:(id&lt;AlivcLivePusherCustomDetectorDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p><a href="../Protocols/AlivcLivePusherCustomDetectorDelegate.html">AlivcLivePusherCustomDetectorDelegate</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置用户自定义人脸识别回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBGMDelegate:" title="setBGMDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBGMDelegate:">&ndash;&nbsp;setBGMDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置背景音乐监听回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setBGMDelegate:(id&lt;AlivcLivePusherBGMDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p><a href="../Protocols/AlivcLivePusherBGMDelegate.html">AlivcLivePusherBGMDelegate</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置背景音乐监听回调</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startPreview:" title="startPreview:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startPreview:">&ndash;&nbsp;startPreview:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开始预览 同步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)startPreview:(UIView *)<em>previewView</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>previewView</code></th>
+						<td><p>预览view</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开始预览 同步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopPreview" title="stopPreview"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopPreview">&ndash;&nbsp;stopPreview</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>停止预览</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)stopPreview</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>停止预览</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startPushWithURL:" title="startPushWithURL:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startPushWithURL:">&ndash;&nbsp;startPushWithURL:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开始推流 同步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)startPushWithURL:(NSString *)<em>pushURL</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pushURL</code></th>
+						<td><p>推流URL</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开始推流 同步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopPush" title="stopPush"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopPush">&ndash;&nbsp;stopPush</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>停止推流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)stopPush</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>停止推流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/restartPush" title="restartPush"></a>
+	<h3 class="method-title"><code><a href="#//api/name/restartPush">&ndash;&nbsp;restartPush</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>重新推流 同步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)restartPush</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>重新推流 同步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pause" title="pause"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pause">&ndash;&nbsp;pause</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>暂停推流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)pause</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>暂停推流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resume" title="resume"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resume">&ndash;&nbsp;resume</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>恢复推流 同步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)resume</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>恢复推流 同步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reconnectPushAsync" title="reconnectPushAsync"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reconnectPushAsync">&ndash;&nbsp;reconnectPushAsync</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>重连 异步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)reconnectPushAsync</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>重连 异步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reconnectPushAsync:" title="reconnectPushAsync:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reconnectPushAsync:">&ndash;&nbsp;reconnectPushAsync:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>重连 异步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)reconnectPushAsync:(NSString *)<em>pushURL</em></code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>重连 异步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/destory" title="destory"></a>
+	<h3 class="method-title"><code><a href="#//api/name/destory">&ndash;&nbsp;destory</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>销毁推流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)destory</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>销毁推流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startPreviewAsync:" title="startPreviewAsync:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startPreviewAsync:">&ndash;&nbsp;startPreviewAsync:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开始预览 异步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)startPreviewAsync:(UIView *)<em>preview</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>preview</code></th>
+						<td><p>预览view</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开始预览 异步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startPushWithURLAsync:" title="startPushWithURLAsync:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startPushWithURLAsync:">&ndash;&nbsp;startPushWithURLAsync:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>开始推流 异步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)startPushWithURLAsync:(NSString *)<em>pushURL</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pushURL</code></th>
+						<td><p>推流URL</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>开始推流 异步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/restartPushAsync" title="restartPushAsync"></a>
+	<h3 class="method-title"><code><a href="#//api/name/restartPushAsync">&ndash;&nbsp;restartPushAsync</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>重新推流 异步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)restartPushAsync</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>重新推流 异步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resumeAsync" title="resumeAsync"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resumeAsync">&ndash;&nbsp;resumeAsync</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>恢复推流 异步接口</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)resumeAsync</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>恢复推流 异步接口</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/switchCamera" title="switchCamera"></a>
+	<h3 class="method-title"><code><a href="#//api/name/switchCamera">&ndash;&nbsp;switchCamera</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>旋转摄像头</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)switchCamera</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>旋转摄像头</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAutoFocus:" title="setAutoFocus:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAutoFocus:">&ndash;&nbsp;setAutoFocus:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置自动对焦</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setAutoFocus:(bool)<em>autoFocus</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>autoFocus</code></th>
+						<td><p>true:自动对焦 false:手动对焦</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置自动对焦</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/focusCameraAtAdjustedPoint:autoFocus:" title="focusCameraAtAdjustedPoint:autoFocus:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/focusCameraAtAdjustedPoint:autoFocus:">&ndash;&nbsp;focusCameraAtAdjustedPoint:autoFocus:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>对焦</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)focusCameraAtAdjustedPoint:(CGPoint)<em>point</em> autoFocus:(bool)<em>autoFocus</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>point</code></th>
+						<td><p>对焦的点</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>autoFocus</code></th>
+						<td><p>是否自动对焦</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>对焦</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setZoom:" title="setZoom:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setZoom:">&ndash;&nbsp;setZoom:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>缩放</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setZoom:(float)<em>zoom</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>zoom</code></th>
+						<td><p>缩放值[0:MaxZoom]</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>缩放</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getMaxZoom" title="getMaxZoom"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getMaxZoom">&ndash;&nbsp;getMaxZoom</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取支持的最大变焦值</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (float)getMaxZoom</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>最大变焦值</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取支持的最大变焦值</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getCurrentZoom" title="getCurrentZoom"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCurrentZoom">&ndash;&nbsp;getCurrentZoom</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前变焦值</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (float)getCurrentZoom</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>当前变焦值</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前变焦值</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setFlash:" title="setFlash:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setFlash:">&ndash;&nbsp;setFlash:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>闪光灯开关</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setFlash:(bool)<em>flash</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>flash</code></th>
+						<td><p>true:打开闪光灯 false:关闭闪光灯</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>闪光灯开关</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setExposure:" title="setExposure:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setExposure:">&ndash;&nbsp;setExposure:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置曝光度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setExposure:(float)<em>exposure</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>exposure</code></th>
+						<td><p>曝光度</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置曝光度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getCurrentExposure" title="getCurrentExposure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getCurrentExposure">&ndash;&nbsp;getCurrentExposure</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前曝光度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (float)getCurrentExposure</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>曝光度</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前曝光度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getSupportedMinExposure" title="getSupportedMinExposure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSupportedMinExposure">&ndash;&nbsp;getSupportedMinExposure</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取支持最小曝光度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (float)getSupportedMinExposure</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>最小曝光度</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取支持最小曝光度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getSupportedMaxExposure" title="getSupportedMaxExposure"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSupportedMaxExposure">&ndash;&nbsp;getSupportedMaxExposure</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取支持最大曝光度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (float)getSupportedMaxExposure</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>最大曝光度</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取支持最大曝光度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setPushMirror:" title="setPushMirror:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setPushMirror:">&ndash;&nbsp;setPushMirror:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>推流镜像开关</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setPushMirror:(bool)<em>mirror</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>mirror</code></th>
+						<td><p>true:打开推流镜像 false:关闭推流镜像</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>推流镜像开关</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setPreviewMirror:" title="setPreviewMirror:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setPreviewMirror:">&ndash;&nbsp;setPreviewMirror:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>预览镜像开关</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setPreviewMirror:(bool)<em>mirror</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>mirror</code></th>
+						<td><p>true:打开预览镜像 false:关闭预览镜像</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>预览镜像开关</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMute:" title="setMute:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMute:">&ndash;&nbsp;setMute:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>静音推流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setMute:(bool)<em>mute</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>mute</code></th>
+						<td><p>true:静音推流 false:正常推流</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>静音推流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyOn:" title="setBeautyOn:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyOn:">&ndash;&nbsp;setBeautyOn:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜开关</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setBeautyOn:(bool)<em>beautyOn</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>beautyOn</code></th>
+						<td><p>true:打开美颜 false:关闭美颜</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜开关</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyWhite:" title="setBeautyWhite:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyWhite:">&ndash;&nbsp;setBeautyWhite:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 美白度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyWhite:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>美白度 范围0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 美白度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyBuffing:" title="setBeautyBuffing:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyBuffing:">&ndash;&nbsp;setBeautyBuffing:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 磨皮度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyBuffing:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>磨皮度 范围0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 磨皮度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyRuddy:" title="setBeautyRuddy:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyRuddy:">&ndash;&nbsp;setBeautyRuddy:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 红润度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyRuddy:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>红润度 范围0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 红润度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyCheekPink:" title="setBeautyCheekPink:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyCheekPink:">&ndash;&nbsp;setBeautyCheekPink:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 腮红度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyCheekPink:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>腮红度 范围 0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 腮红度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyThinFace:" title="setBeautyThinFace:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyThinFace:">&ndash;&nbsp;setBeautyThinFace:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 瘦脸程度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyThinFace:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>瘦脸程度 范围 0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 瘦脸程度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyShortenFace:" title="setBeautyShortenFace:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyShortenFace:">&ndash;&nbsp;setBeautyShortenFace:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 收下巴程度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyShortenFace:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>收下巴程度 范围 0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 收下巴程度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBeautyBigEye:" title="setBeautyBigEye:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBeautyBigEye:">&ndash;&nbsp;setBeautyBigEye:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置美颜 大眼程度</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBeautyBigEye:(int)<em>value</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>value</code></th>
+						<td><p>大眼程度 范围 0~100</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置美颜 大眼程度</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setQualityMode:" title="setQualityMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setQualityMode:">&ndash;&nbsp;setQualityMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置推流模式</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setQualityMode:(AlivcLivePushQualityMode)<em>qualityMode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>qualityMode</code></th>
+						<td><p>推流模式 : 选择 ResolutionFirst 模式时，SDK内部会优先保障推流视频的清晰度; 选择 FluencyFirst 模式时，SDK内部会优先保障推流视频的流畅度，此接口只支持这两种模式。设置后码率设置失效。</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置推流模式</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setTargetVideoBitrate:" title="setTargetVideoBitrate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setTargetVideoBitrate:">&ndash;&nbsp;setTargetVideoBitrate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置目标码率</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setTargetVideoBitrate:(int)<em>targetBitrate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>targetBitrate</code></th>
+						<td><p>目标码率 <a href="Kbps">100  5000</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置目标码率</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMinVideoBitrate:" title="setMinVideoBitrate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMinVideoBitrate:">&ndash;&nbsp;setMinVideoBitrate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置最小码率</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setMinVideoBitrate:(int)<em>minBitrate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>minBitrate</code></th>
+						<td><p>最小码率 <a href="Kbps">100  5000</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置最小码率</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setpreviewDisplayMode:" title="setpreviewDisplayMode:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setpreviewDisplayMode:">&ndash;&nbsp;setpreviewDisplayMode:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置预览显示模式</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setpreviewDisplayMode:(AlivcPusherPreviewDisplayMode)<em>displayMode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>displayMode</code></th>
+						<td><p>预览显示模式</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置预览显示模式</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setResolution:" title="setResolution:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setResolution:">&ndash;&nbsp;setResolution:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置推流分辨率，只在预览模式下生效，推流中不能设置</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setResolution:(AlivcLivePushResolution)<em>resolution</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>resolution</code></th>
+						<td><p>推流分辨率</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置推流分辨率，只在预览模式下生效，推流中不能设置</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/startBGMWithMusicPathAsync:" title="startBGMWithMusicPathAsync:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/startBGMWithMusicPathAsync:">&ndash;&nbsp;startBGMWithMusicPathAsync:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>播放背景音乐</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)startBGMWithMusicPathAsync:(NSString *)<em>path</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>path</code></th>
+						<td><p>背景音乐路径</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>播放背景音乐</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopBGMAsync" title="stopBGMAsync"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopBGMAsync">&ndash;&nbsp;stopBGMAsync</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>停止播放背景音乐</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)stopBGMAsync</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>停止播放背景音乐</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pauseBGM" title="pauseBGM"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pauseBGM">&ndash;&nbsp;pauseBGM</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>暂停播放背景音乐</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)pauseBGM</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>暂停播放背景音乐</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/resumeBGM" title="resumeBGM"></a>
+	<h3 class="method-title"><code><a href="#//api/name/resumeBGM">&ndash;&nbsp;resumeBGM</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>恢复播放背景音乐</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)resumeBGM</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>恢复播放背景音乐</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBGMLoop:" title="setBGMLoop:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBGMLoop:">&ndash;&nbsp;setBGMLoop:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置背景音乐是否循环播放</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBGMLoop:(bool)<em>isLoop</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isLoop</code></th>
+						<td><p>是否循环  true:循环 false:不循环</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置背景音乐是否循环播放</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBGMEarsBack:" title="setBGMEarsBack:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBGMEarsBack:">&ndash;&nbsp;setBGMEarsBack:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置背景音乐耳返开关</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBGMEarsBack:(bool)<em>isOpen</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isOpen</code></th>
+						<td><p>是否打开耳返  true:开启耳返 false:关闭耳返</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置背景音乐耳返开关</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAudioDenoise:" title="setAudioDenoise:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAudioDenoise:">&ndash;&nbsp;setAudioDenoise:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置降噪开关</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setAudioDenoise:(bool)<em>isOpen</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isOpen</code></th>
+						<td><p>是否打开降噪 true:开启 false:关闭 默认:false</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置降噪开关</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setBGMVolume:" title="setBGMVolume:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setBGMVolume:">&ndash;&nbsp;setBGMVolume:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置背景音乐混音 音乐音量</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setBGMVolume:(int)<em>volume</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>volume</code></th>
+						<td><p>音乐音量大小 范围:[0 ~ 100] 默认:50</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置背景音乐混音 音乐音量</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setCaptureVolume:" title="setCaptureVolume:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setCaptureVolume:">&ndash;&nbsp;setCaptureVolume:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置背景音乐混音 人声音量</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setCaptureVolume:(int)<em>volume</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>volume</code></th>
+						<td><p>人声音量大小 范围:[0 ~ 100] 默认:50</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置背景音乐混音 人声音量</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendVideoSampleBuffer:" title="sendVideoSampleBuffer:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendVideoSampleBuffer:">&ndash;&nbsp;sendVideoSampleBuffer:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>发送自定义video SampleBuffer</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)sendVideoSampleBuffer:(CMSampleBufferRef)<em>sampleBuffer</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sampleBuffer</code></th>
+						<td><p>video sample buffer</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>发送自定义video SampleBuffer</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendAudioSampleBuffer:withType:" title="sendAudioSampleBuffer:withType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendAudioSampleBuffer:withType:">&ndash;&nbsp;sendAudioSampleBuffer:withType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>发送自定义的audio SampleBuffer
+只限于replaykit录屏直播使用</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)sendAudioSampleBuffer:(CMSampleBufferRef)<em>sampleBuffer</em> withType:(RPSampleBufferType)<em>sampleBufferType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sampleBuffer</code></th>
+						<td><p>audio sample buffer</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sampleBufferType</code></th>
+						<td><p>audio sample buffer type</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>发送自定义的audio SampleBuffer
+只限于replaykit录屏直播使用</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendVideoData:width:height:size:pts:rotation:" title="sendVideoData:width:height:size:pts:rotation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendVideoData:width:height:size:pts:rotation:">&ndash;&nbsp;sendVideoData:width:height:size:pts:rotation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>发送自定义视频数据</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)sendVideoData:(char *)<em>data</em> width:(int)<em>width</em> height:(int)<em>height</em> size:(int)<em>size</em> pts:(uint64_t)<em>pts</em> rotation:(int)<em>rotation</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>视频数据</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>width</code></th>
+						<td><p>视频宽度</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>height</code></th>
+						<td><p>视频高度</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>数据大小</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pts</code></th>
+						<td><p>时间戳（单位微秒）</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rotation</code></th>
+						<td><p>旋转</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>发送自定义视频数据</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendPCMData:size:sampleRate:channel:pts:" title="sendPCMData:size:sampleRate:channel:pts:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendPCMData:size:sampleRate:channel:pts:">&ndash;&nbsp;sendPCMData:size:sampleRate:channel:pts:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>发送自定义音频数据</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)sendPCMData:(char *)<em>data</em> size:(int)<em>size</em> sampleRate:(int)<em>sampleRate</em> channel:(int)<em>channel</em> pts:(uint64_t)<em>pts</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>data</code></th>
+						<td><p>音频数据</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>数据大小</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sampleRate</code></th>
+						<td><p>采样率</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>channel</code></th>
+						<td><p>声道数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>pts</code></th>
+						<td><p>时间戳（单位微秒）</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>发送自定义音频数据</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addMixVideo:width:height:rotation:displayX:displayY:displayW:displayH:adjustHeight:" title="addMixVideo:width:height:rotation:displayX:displayY:displayW:displayH:adjustHeight:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addMixVideo:width:height:rotation:displayX:displayY:displayW:displayH:adjustHeight:">&ndash;&nbsp;addMixVideo:width:height:rotation:displayX:displayY:displayW:displayH:adjustHeight:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>添加视频混流设置</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)addMixVideo:(int)<em>format</em> width:(int)<em>width</em> height:(int)<em>height</em> rotation:(int)<em>rotation</em> displayX:(float)<em>displayX</em> displayY:(float)<em>displayY</em> displayW:(float)<em>displayW</em> displayH:(float)<em>displayH</em> adjustHeight:(bool)<em>adjustHeight</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>添加视频混流设置</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/changeMixVideoPosition:displayX:displayY:displayW:displayH:" title="changeMixVideoPosition:displayX:displayY:displayW:displayH:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/changeMixVideoPosition:displayX:displayY:displayW:displayH:">&ndash;&nbsp;changeMixVideoPosition:displayX:displayY:displayW:displayH:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>改变视频混流位置</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)changeMixVideoPosition:(int)<em>handler</em> displayX:(float)<em>displayX</em> displayY:(float)<em>displayY</em> displayW:(float)<em>displayW</em> displayH:(float)<em>displayH</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>改变视频混流位置</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setMixVideoMirror:isMirror:" title="setMixVideoMirror:isMirror:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setMixVideoMirror:isMirror:">&ndash;&nbsp;setMixVideoMirror:isMirror:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>改变视频混流镜像</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setMixVideoMirror:(int)<em>handler</em> isMirror:(BOOL)<em>isMirror</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>改变视频混流镜像</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputMixVideoData:data:width:height:stride:size:pts:rotation:" title="inputMixVideoData:data:width:height:stride:size:pts:rotation:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputMixVideoData:data:width:height:stride:size:pts:rotation:">&ndash;&nbsp;inputMixVideoData:data:width:height:stride:size:pts:rotation:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>输入视频混流数据</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)inputMixVideoData:(int)<em>handler</em> data:(long)<em>dataptr</em> width:(int)<em>width</em> height:(int)<em>height</em> stride:(int)<em>stride</em> size:(int)<em>size</em> pts:(long)<em>pts</em> rotation:(int)<em>rotation</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>输入视频混流数据</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeMixVideo:" title="removeMixVideo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeMixVideo:">&ndash;&nbsp;removeMixVideo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>移除视频混流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeMixVideo:(int)<em>handler</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>移除视频混流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addMixAudio:format:audioSample:" title="addMixAudio:format:audioSample:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addMixAudio:format:audioSample:">&ndash;&nbsp;addMixAudio:format:audioSample:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>添加音频混流设置</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)addMixAudio:(int)<em>channels</em> format:(int)<em>format</em> audioSample:(int)<em>audioSample</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>添加音频混流设置</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/inputMixAudioData:data:size:pts:" title="inputMixAudioData:data:size:pts:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/inputMixAudioData:data:size:pts:">&ndash;&nbsp;inputMixAudioData:data:size:pts:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>输入音频混流数据</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (bool)inputMixAudioData:(int)<em>handler</em> data:(long)<em>dataptr</em> size:(int)<em>size</em> pts:(long)<em>pts</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>输入音频混流数据</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeMixAudio:" title="removeMixAudio:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeMixAudio:">&ndash;&nbsp;removeMixAudio:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>移除音频混流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeMixAudio:(int)<em>handler</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>移除音频混流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendMessage:repeatCount:delayTime:KeyFrameOnly:" title="sendMessage:repeatCount:delayTime:KeyFrameOnly:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendMessage:repeatCount:delayTime:KeyFrameOnly:">&ndash;&nbsp;sendMessage:repeatCount:delayTime:KeyFrameOnly:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置Message</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)sendMessage:(NSString *)<em>msg</em> repeatCount:(int)<em>count</em> delayTime:(int)<em>time</em> KeyFrameOnly:(bool)<em>isKeyFrame</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>msg</code></th>
+						<td><p>用户推流消息</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>count</code></th>
+						<td><p>重复次数</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>time</code></th>
+						<td><p>延时时间，单位毫秒</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isKeyFrame</code></th>
+						<td><p>是否只发关键帧</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置Message</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isPushing" title="isPushing"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isPushing">&ndash;&nbsp;isPushing</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取是否正在推流</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)isPushing</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES:正在推流 NO:未推流</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取是否正在推流</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getPushURL" title="getPushURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getPushURL">&ndash;&nbsp;getPushURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前推流URL</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)getPushURL</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>推流URL</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前推流URL</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getLiveStatus" title="getLiveStatus"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getLiveStatus">&ndash;&nbsp;getLiveStatus</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取当前推流状态</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AlivcLivePushStatus)getLiveStatus</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>推流状态</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取当前推流状态</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getLivePushStatusInfo" title="getLivePushStatusInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getLivePushStatusInfo">&ndash;&nbsp;getLivePushStatusInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取推流数据统计</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (AlivcLivePushStatsInfo *)getLivePushStatusInfo</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>推流数据</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取推流数据统计</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLogLevel:" title="setLogLevel:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLogLevel:">&ndash;&nbsp;setLogLevel:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置Log级别</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)setLogLevel:(AlivcLivePushLogLevel)<em>level</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>level</code></th>
+						<td><p>Log级别 default:AlivcLivePushLogLevelError</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>0:success  非0:failure</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置Log级别</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getSDKVersion" title="getSDKVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getSDKVersion">&ndash;&nbsp;getSDKVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>获取SDK版本号</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (NSString *)getSDKVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>版本号</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>获取SDK版本号</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addDynamicWaterMarkImageDataWithPath:x:y:w:h:" title="addDynamicWaterMarkImageDataWithPath:x:y:w:h:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addDynamicWaterMarkImageDataWithPath:x:y:w:h:">&ndash;&nbsp;addDynamicWaterMarkImageDataWithPath:x:y:w:h:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>  添加动态贴纸,最多支持添加5个贴纸
+  waterMarkDirPath：贴纸图片sequence目录
+  x,y：显示屏幕位置（0~1.0f)
+  w,h：显示屏幕长宽（0~1.0f)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (int)addDynamicWaterMarkImageDataWithPath:(NSString *)<em>waterMarkDirPath</em> x:(float)<em>x</em> y:(float)<em>y</em> w:(float)<em>w</em> h:(float)<em>h</em></code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>返回动态贴纸的id号，删除贴纸传此id
+*</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>  添加动态贴纸,最多支持添加5个贴纸
+  waterMarkDirPath：贴纸图片sequence目录
+  x,y：显示屏幕位置（0~1.0f)
+  w,h：显示屏幕长宽（0~1.0f)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeDynamicWaterMark:" title="removeDynamicWaterMark:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeDynamicWaterMark:">&ndash;&nbsp;removeDynamicWaterMark:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>删除动态贴纸
+vid:贴纸id，add时返回的</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeDynamicWaterMark:(int)<em>vid</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>删除动态贴纸
+vid:贴纸id，add时返回的</p>
+
+<p>*</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/snapshot:interval:" title="snapshot:interval:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/snapshot:interval:">&ndash;&nbsp;snapshot:interval:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>截图
+count:张数
+interval:每张间隔(ms)
+*</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)snapshot:(int)<em>count</em> interval:(int)<em>interval</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>截图
+count:张数
+interval:每张间隔(ms)
+*</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setSnapshotDelegate:" title="setSnapshotDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setSnapshotDelegate:">&ndash;&nbsp;setSnapshotDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>设置截图回调
+*</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setSnapshotDelegate:(id&lt;AlivcLivePusherSnapshotDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>设置截图回调
+*</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">AlivcLivePusher.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 Aliyun. All rights reserved. Updated: 2019-02-19</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
