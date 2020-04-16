@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
                       - 推流SDK中包含背景音乐相关功能。如果您需要使用该功能，要使用依赖播放器SDK的版本；如果您不需要背景音乐功能，则使用不依赖播放器SDK的版本即可。
                       - AlivcLibFaceResource.bundle是人脸识别资源文件，如果您需要使用美颜的人脸识别高级功能，则必须导入开发工程；反之则不需要。
                       DESC
-  spec.homepage     = "https://help.aliyun.com/document_detail/61989.html"
+  spec.homepage     = "https://help.aliyun.com/document_detail/154511.html"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "aliyunvideo" => "videosdk@service.aliyun.com" }
   spec.version      = "3.5.0"
